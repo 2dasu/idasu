@@ -105,7 +105,8 @@ const works = [
   './assets/works/work6.png',
   './assets/works/work7.png',
   './assets/works/work8.png',
-  './assets/works/work9.png'
+  './assets/works/work9.png',
+  './assets/works/work10.png'
 ];
 
 
