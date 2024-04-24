@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { icons, facials, steps, blueprints, works } from './images';
+import { icons, facials, steps, works } from './images';
 import './Virtual.css';
 import Modal from "./ImageModal";
 
@@ -7,16 +7,10 @@ import Modal from "./ImageModal";
 
 function Virtual() {
 
-  const [blueprintModalIndex, setBlueprintModalIndex] = useState(null);
   const [workModalIndex, setWorkModalIndex] = useState(null);
 
-  const openBlueprintModal = (index) => {
-    setBlueprintModalIndex(index);
-  };
-
-  const closeBlueprintModal = () => {
-    setBlueprintModalIndex(null);
-  };
+  
+  
 
   const openWorkModal = (index) => {
     setWorkModalIndex(index);
@@ -206,13 +200,7 @@ function Virtual() {
 
     </div>
 
-    {blueprintModalIndex !== null && (
-        <Modal
-          images={blueprints}
-          index={blueprintModalIndex}
-          close={closeBlueprintModal}
-        />
-      )}
+    
       {workModalIndex !== null && (
         <Modal
           images={works}
