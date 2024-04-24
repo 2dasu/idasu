@@ -55,15 +55,15 @@ function Virtual() {
       <div className="price-box">
         <div className="price">
           <h4>Virtual Illust Price</h4>
-          <p>2,400,-</p>
-          <p>+비대칭 자세 300,-</p>
+          <p>2,300,-</p>
+          <p>+비대칭 자세 200,-</p>
           <p>+의상 추가 500,-</p>
           <p>+헤어 추가 300,-</p>
         </div>
         <div className="price">
           <h4>Character Design</h4>
-          <p>삼면도 400,-</p>
-          <p>디자인 400,-</p>
+          <p>삼면도 350,-</p>
+          <p>디자인 350,-</p>
         </div>
       </div>
 
