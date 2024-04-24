@@ -55,10 +55,12 @@ function Virtual() {
       <div className="price-box">
         <div className="price">
           <h4>Virtual Illust Price</h4>
-          <p>2,300,-</p>
+          <p>2,300,- / $1800 USD</p>
           <p>+비대칭 자세 200,-</p>
           <p>+의상 추가 500,-</p>
           <p>+헤어 추가 300,-</p>
+          <p>+겉옷 온오프 200,-</p>
+          <p>+팔 포즈 (게임기,마이크 등) 200,-</p>
         </div>
         <div className="price">
           <h4>Character Design</h4>
@@ -176,27 +178,7 @@ function Virtual() {
       </div>
 
 
-      <div className="subtitle-box">
-          <div className="subtitle-line"></div>
-          <div className="subtitle">삼면도</div>
-          <div className="subtitle-line"></div>
-      </div>
-      <div className="box">
-        <div className="bluePrintImages">
-          <div>
-            {blueprints.map((image, index) => (
-              <div key={index} className="grid-item">
-                <img
-                  src={image}
-                  alt={`blueprint-${index + 1}`}
-                  onClick={() => openBlueprintModal(index)} // 클릭 시 blueprintModalIndex 설정
-                  className="grid-image"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+     
 
 
       <div className="subtitle-box">
