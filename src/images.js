@@ -55,6 +55,8 @@ const steps = {
 
 
 const illusts = [
+  './assets/illust/illust26.jpg',
+  './assets/illust/illust25.jpg',
   './assets/illust/illust24.jpg',
   './assets/illust/illust23.jpg',
   './assets/illust/illust22.jpg',
@@ -82,6 +84,9 @@ const illusts = [
 ];
 
 const characterDesigns = [
+  './assets/character_design/characterDesign11.jpg',
+  './assets/character_design/characterDesign10.jpg',
+  './assets/character_design/characterDesign9.jpg',
   './assets/character_design/characterDesign8.jpg',
   './assets/character_design/characterDesign7.jpg',
   './assets/character_design/characterDesign6.jpg',
